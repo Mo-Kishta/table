@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table, th, tr, td {
+    margin: 50px auto;
+    table-layout: fixed;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead img{
+    font-weight: bold;
+    height: 110px;
+}
+thead tr:nth-child(1) th:nth-child(2)
+,thead tr:nth-child(1) th:nth-child(7) {
+    height: 50px
+}
+.AC {
+    padding-right: 200px;
+    text-align: left;
+    white-space: nowrap;
+}
+thead tr:nth-child(1) th:nth-child(3) {
+    padding: 0 60px;
+    white-space: nowrap;
+}
+thead tr:nth-child(1) th:nth-child(4) {
+    width: 260px; 
+
+}
+thead tr:nth-child(1) th:nth-child(5) {
+    width: 110px;
+}
+thead tr:nth-child(1) th:nth-child(6) {
+    white-space: nowrap;
+    width: 150px;
+}
+thead tr:nth-child(1) th:nth-child(7) 
+,thead tr:nth-child(2) th:nth-child(2)
+,thead tr:nth-child(3) th:nth-child(1) {
+    padding: 0  50px;
+    height: 30px;
+}
+.row1 {
+    background-color: #CCCBC9;
+    padding: 20px 0;
+}
+.row2 {
+    text-align: center;
+}
+tbody {
+    font-weight: bold;
+}
+tbody tr:nth-child(1) td:nth-child(1) {
+    padding: 10px 0;
+}
+tbody tr:nth-child(1) td:nth-child(6) {
+    width: 130px;
+}
+tbody tr:nth-child(2) td:nth-child(1) {
+    width: 20px;
+    height: 120px;
+}
+tbody tr:nth-child(2) td:nth-child(2) {
+    width: 40px;
+}
+tbody tr:nth-child(2) td:nth-child(5) {
+    height: 70px;
+}
+tbody tr:nth-child(3) td:nth-child(1) 
+,tbody tr:nth-child(4) td:nth-child(1) {
+    height: 25px;
+}
+tbody tr:nth-child(2) td:nth-child(8) 
+,tbody tr:nth-child(2) td:nth-child(10) {
+    width: 100px;
+}
+tbody tr:nth-child(3) td:nth-child(3) {
+    height: 60px;
+    padding: 0 10px;
+}
+tbody tr:nth-child(3) td:nth-child(4) {
+    border-top: hidden;
+}
+tbody tr:nth-child(5) td:nth-child(1)
+,tbody tr:nth-child(7) td:nth-child(1)
+,tbody tr:nth-child(9) td:nth-child(1)
+,tbody tr:nth-child(11) td:nth-child(1)
+,tbody tr:nth-child(13) td:nth-child(1) {
+    height: 110px;
+}
+tbody tr:nth-child(5) td:nth-child(5)
+,tbody tr:nth-child(7) td:nth-child(5)
+,tbody tr:nth-child(9) td:nth-child(5)
+,tbody tr:nth-child(11) td:nth-child(5)
+,tbody tr:nth-child(13) td:nth-child(5) {
+    height: 70px;
+}
+tbody tr:nth-child(6) td:nth-child(5)
+,tbody tr:nth-child(6) td:nth-child(6)
+,tbody tr:nth-child(6) td:nth-child(7)
+,tbody tr:nth-child(6) td:nth-child(8) {
+    background-color: #CCCBC9;
+}
+tbody tr:nth-child(6) td:nth-child(4)
+,tbody tr:nth-child(8) td:nth-child(4)
+,tbody tr:nth-child(10) td:nth-child(4)
+,tbody tr:nth-child(12) td:nth-child(4)
+,tbody tr:nth-child(14) td:nth-child(4) {
+    background-color: #E4E4E4;
+}
+tbody tr:nth-child(15) td:nth-child(1)
+,tbody tr:nth-child(15) td:nth-child(2)
+,tbody tr:nth-child(15) td:nth-child(3)
+,tbody tr:nth-child(15) td:nth-child(4)
+,tbody tr:nth-child(15) td:nth-child(5)
+,tbody tr:nth-child(15) td:nth-child(6)
+,tbody tr:nth-child(15) td:nth-child(7)
+,tbody tr:nth-child(15) td:nth-child(8)
+,tbody tr:nth-child(15) td:nth-child(9)
+,tbody tr:nth-child(15) td:nth-child(10) {
+    height: 55px;
+    background-color: #CBCAC8;
+}
+tbody tr:nth-child(16) td:nth-child(1)
+,tbody tr:nth-child(17) td:nth-child(1)
+,tbody tr:nth-child(18) td:nth-child(1)
+,tbody tr:nth-child(19) td:nth-child(1)
+,tbody tr:nth-child(20) td:nth-child(1) {
+    height: 28px;
+    background-color: #CBCAC8;
+}
+tbody tr:nth-child(17) td:nth-child(11) {
+    text-align: center;
+}
+tbody tr:nth-child(16) td:nth-child(11) {
+    background-color: #B7B7B7;
+}
+.small-table {
+    background-color: #E4E4E4;
+}
+tbody tr:nth-child(19) td:nth-child(13) {
+    border-top: hidden;
+}
+tfoot {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12PX;
+}
+tfoot tr:nth-child(1)
+,tfoot tr:nth-child(2) {
+    height: 28px;
+}
+tfoot tr:nth-child(1) td:nth-child(1) {
+    border-bottom: hidden;
+}
+tfoot tr:nth-child(2) td:nth-child(1)
+,tfoot tr:nth-child(2) td:nth-child(2) {
+    border-right: hidden;
+}
+tfoot tr:nth-child(1) td:nth-child(2) {
+    text-align: center;
+    font-size: 16px;
+}
+tfoot tr:nth-child(1) td:nth-child(3) {
+    font-size: 16px;
+}
+tfoot tr:nth-child(1) td:nth-child(4) {
+    text-align: right;
+    padding-right: 8px;
+    border-left: hidden;
+}
+tfoot tr:nth-child(1) td:nth-child(5) {
+    font-size: 16px;
+    text-align: center;
+}
